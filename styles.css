@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@1,500&family=Kanit&family=Lobster&family=Oswald&family=Roboto&family=Varela+Round&display=swap');
+
+body {
+   font-family: Varela Round, sans-serif;
+   font-size: 18px;
+   font-weight: normal;
+
+   background: honeydew;
+   color: #0f141e;
+}
+
+.container {
+   max-width: 750px;
+   margin: auto;
+   padding-top: 30px;
+}
+
+.avatar {
+   width: 200px;
+   border-radius: 30px;
+   box-shadow: 4px 4px 14px 5px rgba(0, 0, 0, .25);
+}
+
+.card {
+   border: 4px solid darkseagreen;
+   border-radius: 10px;
+   padding: 10px 15px;
+   margin-bottom: 15px;
+}
+
+.card h3 {
+   margin-bottom: 10px;
+}
+
+.bg-beige {
+   background: beige;
+}
+
+.bg-pink {
+   background: moccasin;
+}
+
+.bg-blue {
+   background: powderblue;
+}
+
+.info {
+   margin-bottom: 20px;
+   display: flex;
+}
+
+.info-text {
+   margin-left: 40px;
+}
+
+.info-text h3 {
+   margin-bottom: 12px;
+}
+
+.info-text p {
+   font-style: italic;
+   font-weight: bold;
+   color: rgb(126, 31, 31);
+   margin: 0;
+}
+
+.container {
+   width: auto;
+}
+
+a {
+   color: black;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+a:active {
+   color: blue;
+}
+
+a:visited {
+   color: mediumslateblue;
+}
+
+.btn {
+   background: black;
+   color: lightsteelblue;
+   padding: 15px 30px;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   font-family: inherit;
+}
+
+.btn:hover {
+   opacity: 0.8;
+   color: yellow;
+}
+
+.list {
+   padding: 0 20px;
+}
+
+.list li {
+   color: darkslategrey;
+   margin-bottom: 10px;
+}
+
+.link-list {
+   list-style: none;
+   padding: 0;
+   border-bottom: 2px solid gray;
+   padding-bottom: 5px;
+}
+
+.table {
+   width: 100%;
+}
+
+.table td {
+   padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+   color: darkred;
+}
+
+.form h3 {
+   text-align: center;
+}
+
+.form-row {
+   margin-bottom: 15px;
+   display: flex;
+}
+
+.form-row .form-group {
+   margin-right: 20px;
+   width: 50%;
+   /* display: inline-block; */
+   /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+   margin-right: 0;
+}
+
+.form-group label {
+   display: block;
+   font-size: 14px;
+   color: black;
+}
+
+.form-group input,
+.form-group textarea {
+   width: 100%;
+   box-sizing: border-box;
+   border: none;
+   background: transparent;
+   border-bottom: 1px solid #ccc;
+   color: black;
+   padding: 15px 0 10px;
+   outline-color: darkseagreen;
+   font-family: inherit;
+}

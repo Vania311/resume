@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="ivan, cv, resume">
+   <meta name="description" content="Это сайт - резюме Багрицевича Ивана">
+   <title>Ivan Resume</title>
+
+
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+   <div class="container">
+      <div class="info">
+         <img src="avatar.jpg" class="avatar" alt="Иван Багрицевич">
+
+         <div class="info-text">
+            <header id="header" class="header">
+               <h1>Иван Багрицевич</h1>
+            </header>
+
+            <article id="block1">
+               <p>Я студент технического университета <strong>БГУИР</strong>, факультета <strong><em>Компьютерного
+                        проектирования</em></strong>.</p>
+            </article>
+
+            <article id="block2">
+               <p><em>Люблю смотреть футбольные матчи, интересуюсь веб-разроботкой</em></p>
+            </article>
+
+            <h3>Список социальных сетей:</h3>
+
+            <nav id="navigation">
+               <a href="https://t.me/vanio_k" target="_blank">Telegram</a>
+               <strong>|</strong>
+               <a href="https://www.linkedin.com/in/ivan-bahrytsevich-8a257723a/" target="_blank">LinkedIn</a>
+            </nav>
+         </div>
+      </div>
+
+      <div class="card bg-beige">
+         <h3>Мои хобби:</h3>
+
+         <ul class="list">
+            <li>Футбол</li>
+            <li>Монополия</li>
+            <li>Пинг-понг</li>
+         </ul>
+      </div>
+
+      <div class="card bg-pink">
+         <h3>Опыт работы</h3>
+
+         <table class="table">
+            <!-- <thead>
+               <tr>
+                  <th>Название</th>
+                  <th>Должность</th>
+                  <th>Год</th>
+               </tr>
+            </thead> -->
+
+            <tbody>
+               <tr>
+                  <td>ProStore</td>
+                  <td>Мерчендайзер</td>
+                  <td>2018-2019</td>
+               </tr>
+
+               <tr>
+                  <td>Popygai</td>
+                  <td>Печатник</td>
+                  <td>2019-2022</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+
+      <div class="card bg-blue">
+         <h3>Курсы</h3>
+
+         <ul class="link-list">
+            <li><a href="https://teachmeskills.by/">TeachMeSkills</a></li>
+         </ul>
+      </div>
+
+      <form class="form">
+         <h3>Связаться со мной</h3>
+
+         <div class="form-row">
+            <div class="form-group">
+               <label for="text_name">Ваше имя:</label>
+               <input type="text" id="text_name" placeholder="Введите имя">
+            </div>
+
+            <div class="form-group">
+               <label for="text_email">Ваш email:</label>
+               <input type="text" id="text_email" placeholder="Введите email">
+            </div>
+         </div>
+
+         <div class="form-group">
+            <label for="text_message">Ваше сообщение:</label>
+            <textarea id="text_message" cols="30" rows="6" placeholder="Введите сообщение..."></textarea>
+         </div>
+
+         <div>
+            <button class="btn" type="submit" id="submit">Отправить!</button>
+         </div>
+      </form>
+   </div>
+
+</body>
+
+</html>
